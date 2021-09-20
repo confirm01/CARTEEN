@@ -4,7 +4,7 @@ html{
 .logo{
     width: 100px;
     position: absolute;
-    top: 4%;
+    top: 7%;
     left: 20%;
 }
 
@@ -15,7 +15,7 @@ html{
 
 body{
     background-color: grey;
-   background-image: url(./IMAGES/new5.jpg);
+   background-image: url(./IMAGES/front.jpg);
    background-size: cover;
    background-position: center;
 }
