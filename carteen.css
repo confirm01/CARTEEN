@@ -15,8 +15,9 @@ html{
 
 body{
     background-color: grey;
-   background-image: url(./IMAGES/front.jpg);
+   background-image: url(./IMAGES/latest1.jpg);
    background-size: cover;
+   background-repeat: repeat-y;
    background-position: center;
 }
 
@@ -42,7 +43,7 @@ nav{
     .logo{
         width: 100px;
         position: absolute;
-        top: 7%;
+        top: 10%;
         left: 20%;
     }
 }
