@@ -1,10 +1,8 @@
-html{
-    height: 100%;
-}
+
 .logo{
     width: 100px;
     position: absolute;
-    top: 7%;
+    top: 8%;
     left: 20%;
 }
 
@@ -13,12 +11,14 @@ html{
     font-family: 'Kaushan Script', cursive;
 }
 
-body{
+#banner{
     background-color: grey;
-   background-image: url(./IMAGES/latest1.jpg);
+   background-image: url(./IMAGES/latest2.jpg);
    background-size: cover;
-   background-repeat: repeat-y;
+   background-repeat:initial;
    background-position: center;
+   height: 118px;
+   text-align: center;
 }
 
 .container{
@@ -32,7 +32,7 @@ nav{
     background-color: rgba(245, 229, 7, 0.993);
     height: 30px;
     text-align: center;
-    text-decoration: teal;
+    text-decoration: white;
 }
 
 @media screen and (max-width: 770px){
@@ -43,49 +43,64 @@ nav{
     .logo{
         width: 100px;
         position: absolute;
-        top: 10%;
+        top: 12%;
         left: 20%;
     }
 }
 
 /* main section*/
 
-main{
+
+#main {
+    background-color: grey;
+    background-image: url(./IMAGES/latest1.jpg);
+    background-size: cover;
+    background-repeat:initial;
+    background-position: center;
+    width: 100%;
+    padding: 70px 0;
     height: 400px;
     text-align: center;
-    padding-top: 80px;
-    padding-left: 240px;
-    padding-right: 240px;
 }
 
 h1{
-    color: rgb(15, 8, 8);
+    color: maroon;
     font-family:'Times New Roman', Times, serif;
     font-size: 70px;
 }
 p{
-    color:black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 a{
-    color:white;
+    color: black;
     cursor: pointer;
 }
 a:hover{
     color: blue;
-    font-style: italic;
+    font-style: inherit;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 nav a{
     text-decoration: none;
-    font-size: 15px;
+    color: maroon;
+    font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
 }
-.order{
-    text-align: center;  
+
+#order {
+    background-color: grey;
+    background-image: url(./IMAGES/latest2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
 }
+
 .order-text p{
     font-size: 30px;
 }
@@ -116,16 +131,16 @@ nav a{
 }
 
 .map{
-    padding-bottom: 100px;
-}
-.map h3{
+    background-color: grey;
+    background-image: url(./IMAGES/d9.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 70px 0;
     text-align: center;
-    font-size: 30px;
-    color: blue;
-    text-decoration: underline;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
+
 @media screen and (max-width: 770px){
     .map{
         width: 100%;
@@ -137,20 +152,28 @@ nav a{
 }
 #footer{
     padding: 100px 0 20px;
-    background: linear-gradient(rgba(255,255.234.13));
+    background-image: url(./IMAGES/d3.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
     position: relative;
     font-size: 40px;
 }
 #footer p{
     font-size: 30px;
-}
-
-#contact p{
-    font-size: 50px;
+    color: black;
     font-weight: bold;
 }
-#footer h2{
-    font-size: 30px;
+
+#contact p, h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+#contact p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    font-style: italic;
 }
 
 .footer-row{
@@ -170,5 +193,6 @@ nav a{
 }
 #copy p{
     font-size: 20px;
+    color: #009688;
 }
 
