@@ -35,7 +35,7 @@ nav{
     text-decoration: white;
 }
 
-@media screen and (max-width: 770px){
+@media screen (min-width:330px)and (max-width: 770px){
     .banner-text h2{
         font-size: 44px;
         top: 6%;
@@ -43,9 +43,10 @@ nav{
     .logo{
         width: 100px;
         position: absolute;
-        top: 12%;
+        top: 10%;
         left: 20%;
     }
+
 }
 
 /* main section*/
@@ -92,7 +93,7 @@ nav a{
 
 #order {
     background-color: grey;
-    background-image: url(./IMAGES/latest2.jpg);
+    background-image: url(./IMAGES/food6.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center;
@@ -132,7 +133,7 @@ nav a{
 
 .map{
     background-color: grey;
-    background-image: url(./IMAGES/d9.jpg);
+    background-image: url(./IMAGES/food1.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center;
@@ -152,7 +153,7 @@ nav a{
 }
 #footer{
     padding: 100px 0 20px;
-    background-image: url(./IMAGES/d3.jpg);
+    background-image: url(./IMAGES/food2.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center;
